@@ -1,0 +1,17 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@tvm/lab04':
+        specifier: workspace:1.0.0
+        version: link:../lab04
+    devDependencies:
+      '@tvm/mark':
+        specifier: workspace:*
+        version: link:../mark
